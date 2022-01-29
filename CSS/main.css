@@ -283,10 +283,11 @@ header .links ul li:hover a{
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
-.portfolio .portfolio-contents .card:hover {
-    transform: scale(1.1);
-}
-.portfolio .portfolio-contents .card .info {
+@media (min-width:768px) {
+    .portfolio .portfolio-contents .card:hover {
+        transform: scale(1.1);
+    }
+}.portfolio .portfolio-contents .card .info {
     padding: 20px;
 }
 @media (max-width:767px) {
